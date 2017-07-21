@@ -56,6 +56,12 @@
 
 	<!-- Mule Dependencies -->
 	<dependencies>
+		<dependency>
+  <groupId>com.sun</groupId>
+  <artifactId>tools</artifactId>
+  <scope>system</scope>
+  <systemPath>${java.home}/../lib/tools.jar</systemPath>
+</dependency>
 		<!-- Xml configuration -->
 <!-- 		<dependency> -->
 <!--         	<groupId>com.mulesoft.muleesb</groupId> -->
