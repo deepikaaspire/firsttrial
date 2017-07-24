@@ -63,7 +63,14 @@
  			<version>${mule.version}</version> 
  			<scope>provided</scope> 
 		</dependency> 
-		
+		<!-- https://mvnrepository.com/artifact/com.sun/tools -->
+<dependency>
+    <groupId>com.sun</groupId>
+    <artifactId>tools</artifactId>
+    <version>1.5.0</version>
+    <scope>system</scope>
+</dependency>
+
  		<dependency> 
 			<groupId>com.mulesoft.muleesb.modules</groupId> 
 			<artifactId>mule-module-spring-config-ee</artifactId> 
@@ -128,7 +135,7 @@
      <version>3.8.4</version> 
     
  </dependency> 
-		 https://mvnrepository.com/artifact/org.mule.modules/mule-module-apikit 
+		<!-- https://mvnrepository.com/artifact/org.mule.modules/mule-module-apikit -->
  <dependency>
     <groupId>org.mule.modules</groupId>
     <artifactId>mule-module-apikit</artifactId>
